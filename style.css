@@ -1,0 +1,75 @@
+.esports{
+	font-size: 50px;
+	color:#ffffff;
+	text-align: center;
+	background-image: url("image/eスポーツ.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100vw;
+}
+.center ul{
+	list-style: disc;
+	padding-left: 15px;
+}
+#center ul{
+	list-style: disc;
+	padding-left: 15px;
+}
+.center{
+	padding: 0.5em 1em;
+	margin: 2em 0;
+	border: solid 3px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+#center{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.center1{
+	margin: 0 auto;
+	display: block;
+}
+.float1 {
+	float: left;
+	overflow: auto;
+}
+.clear{
+	clear: left;
+}
+#padding1{
+	padding-left: 120px;
+}
+#sumabura{
+	clear: left;
+}
+#padding2{
+	padding-left: 150px;
+}
+.imgsize2{
+	padding-left: 100px;
+	height: 328.5px;
+}
+#rocket{
+	clear: left;
+}
+#padding3{
+	padding-left: 100px;
+}
+.imgsize3{
+	padding-left: px;
+	height: px;
+}
+#puyopuyo{
+	clear: left;
+}
+#padding4{
+	padding-left: 100px;
+}
+.imgsize4{
+	padding-left: 100px;
+	height: 320px;
+}
