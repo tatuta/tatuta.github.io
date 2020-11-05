@@ -1,5 +1,10 @@
+body{
+	background-image: url("image/大理石.jpg");
+	background-position: center;
+	background-size: 100vw;
+}
 h1{
-	font-size: 40px;
+	font-size: 100px;
 	color:#ffffff;
 	text-align: center;
 	background-image: url("image/eスポーツ.jpg");
@@ -7,11 +12,39 @@ h1{
 	background-repeat: no-repeat;
 	background-size: 100vw;
 }
+h2{
+	font-size: 70px;
+}
+h3{
+	font-size: 50px;
+}
+h4{
+	font-size: 40px;
+}
+p{
+	font-size: 25px;
+	padding: 0 40px;
+}
+p.sansyou{
+	font-size: 20px;
+}
+ul{
+	font-size: 40px;
+}
+table{
+	background: #ffffff;
+	font-size: 40px;
+	margin: 0 auto 50px auto;
+}
+.time{
+	background: #ffffff;
+	font-size: 70px;
+}
 .center ul{
 	list-style: disc;
 	padding-left: 15px;
 }
-#center ul{
+.center2 ul{
 	list-style: disc;
 	padding-left: 15px;
 }
@@ -24,7 +57,7 @@ h1{
 	align-items: center;
 	flex-direction: column;
 }
-#center{
+.center2{
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -43,19 +76,36 @@ h1{
 section{
 	text-align: center;
 }
-.imgsize1{
-
-}
-.imgsize2{
-	height: 328.5px;
-}
-.imgsize3{
-	padding-left: px;
-	height: px;
-}
-.imgsize4{
-	height: 320px;
-}
 table{
 	margin: 3px auto;
+}
+#fortnite{
+	margin: 10px auto 100px auto;
+}
+#sumabura{
+	margin: 10px auto 100px auto;
+}
+#rocket{
+	margin: 10px auto 100px auto;
+}
+#puyopuyo{
+	margin: 10px auto 100px auto;
+}
+.top{
+	position: fixed;
+	right: 0;
+	bottom: 70px;
+	height: 180px;
+}
+.margin{
+	margin-top: 50px;
+}
+.tyuui{
+	color:#ff0000;
+}
+p.yoyaku{
+	font-size: 40px;
+}
+.kome{
+	font-size: 20px;
 }
