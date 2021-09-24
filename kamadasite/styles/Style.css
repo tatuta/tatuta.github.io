@@ -1,6 +1,5 @@
 @charset "utf-8";
 /* Global Styles */
-@media screen and (max-width: 480px) { 
 a:hover {
 	color: rgba(255,255,255,1.00);
 }
@@ -408,6 +407,4 @@ header #headerLinks a {
 }
 #foo{
 	text-align: center;
-}
-
 }
