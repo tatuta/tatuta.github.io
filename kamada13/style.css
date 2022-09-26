@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+ul{
+	list-style: none;
+
+}
+a:hover{
+	background-color: black;
+}
+.パーツ例{
+	width: 500px;
+	height: 200px;
+	background-color: #4CE0F8;
+	background:;
+	margin: auto;
+	text-align: center;
+}
+#パーツ{
+	display: flex;
+	flex-wrap: wrap;
+	width:900px;
+}
+.aa{
+	background: #0067c0;
+	width: 400px;
+	margin:20px;
+	border: solid;
+	text-align: center;
+	
+}
+.douga{
+	text-align: center;
+}
+body{
+	background-color: #91B3F7;
+}
+.mozi{
+	color: white;
+}
+#main{
+
+	margin: auto;
+	text-align: center;
+}
+#パーツ{
+	
+	margin: auto;
+	text-align: center;
+}
