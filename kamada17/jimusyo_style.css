@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+@media (max-width: 1238px){
+}
+.ma{
+	float: left;
+	padding: 0px 20px 0px 20px;
+}
+.本文{
+	clear: both;
+}
+h1{
+	text-align: left;
+}

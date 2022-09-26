@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+@media (max-width: 1238px){
+}
+.aidoru{
+	float: left;
+	padding: 0px 20px 0px 20px;
+}
+.float{
+	float: left;
+	padding: 0px 20px 0px 20px;
+}
+.clear{
+	clear: both;
+}
