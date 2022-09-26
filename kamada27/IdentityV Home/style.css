@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	background-color:#2CFD6B ;
+	height:auto;
+}
+td li{
+	display: flex;
+	width:120px;
+}
+.text{
+	text-align: center;
+	color:#FC5E0C;
+	font-size: 30px
+}
+.top{
+	width:600px ;
+	height:400px;
+	clear: both;
+	margin-top: 10px;
+}
+.homemain{
+	float: left;
+		width:100%;
+	background:linear-gradient(to right, lightblue 0%, lightblue 50%, lightpink 50%, lightpink 100%)
+}
+
+.takato{
+	display:flex;
+	justify-content:space-around
+}
+
+.takakuwa{
+	width:auto;
+	text-align: center;
+}
+

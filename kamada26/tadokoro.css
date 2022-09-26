@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	text-align:center;
+	background-color:#80FFD9;
+}
+p{
+	background-color:#F8EEBA;
+}
+main{
+	
+}
+tdul{
+	float:left;
+	width:20px;
+}
+img{
+	height: 400px;
+}
+

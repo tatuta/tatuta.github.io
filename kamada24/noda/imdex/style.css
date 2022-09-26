@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+background-color:#C8C8C7;
+}
+header{
+width:1500px;
+}
+li{
+float:left;
+width:197px;
+list-style:none;
+}
+h2{
+clear:both;
+}
