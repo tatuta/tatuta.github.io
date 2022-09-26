@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+h1{
+	text-align:center;
+}
+#mokuzi h2{
+	margin-bottom: 20px;
+    clear: both;
+    padding: 0 20px;
+    font-size: 20px;
+	text-align: center;
+    letter-spacing: 10px;
+    background: #222;
+    color: #fff;
+	border-radius:10px;
+}
+.tb1{
+	word-break: break-all;
+    border: 5px solid #999;
+    padding: 10px;
+	margin: auto;
+	border-radius:10px;
+}
