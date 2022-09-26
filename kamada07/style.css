@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+#nav p{
+	margin:20px;
+}
+
+#flex1{
+    display: flex;
+	flex-wrap: wrap;
+    width:900px;
+/*
+    background:black;
+*/
+	
+}
+.flex-child{
+    background: yellow;
+    border:solid;
+    width:30%;
+	margin-bottom: 50px;
+	margin-left: 20px;
+    text-align: center;
+}
+body{
+	background-color: cadetblue;
+	
+}
+ul{
+	list-style: none;
+	display: flex;
+	width:900px;
+}
+li{
+	margin: 20px;
+	border: solid;
+	text-align: center;
+	background-color:cornflowerblue;
+	width:350px;
+}
+

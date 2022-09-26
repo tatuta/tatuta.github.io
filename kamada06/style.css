@@ -1,0 +1,84 @@
+@charset "utf-8";
+@import url("reset.css");
+/* CSS Document */
+/*---------------------------
+  　レイアウト
+-----------------------------*/
+body{
+	background-color:aqua;
+}
+div#container{
+	width: 1000px;
+	margin: auto;
+	background:#FFFFFF;
+	padding: 1px 20px;
+}
+#main{
+	float: left;
+	width: 650px;
+	margin-left: 5px;
+}
+aside{
+	float: right;
+	width: 200px;
+	margin-right: 5px;
+}
+.mainimg{
+	
+}
+.contents{
+	background-color: #9E8CE8;
+}
+/*---ナビ---*/
+header nav ul{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	}
+header nav ul li{
+	float: left;
+	list-style-type: none;
+}
+header nav ul li a{
+	display: block;
+	width: 142px;
+	line-height: 32px;
+	margin:0 4px 10px 4px;
+	text-align: center;
+	color: #666666;
+	text-decoration: none;
+}
+header nav ul li a:hover{
+	background-color: aqua;
+}
+html,body{
+	overflow-x: hidden;
+	min-height: 100%;
+	font-size: 14px;
+}
+section{
+	display: block;
+}
+footer{
+	height: 15px;
+	background: #ffe294;
+	text-align: center;
+	clear: both
+}
+article.mainimg{
+	border: 1px solid #5C5C5C;
+	margin: 1px 20px;
+}
+.mainimg h2{
+	float: left;
+	width: 270px;
+	margin: 0;
+}
+article.mainimg ul{
+	margin: 0 10px 0 0;
+	padding: 10px 0 10px 30px;
+	height: 120px;
+	line-height: 150%;
+	overflow: auto;
+}
+
