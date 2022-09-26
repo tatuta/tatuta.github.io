@@ -1,0 +1,95 @@
+body {
+    background:#EFF1F5;
+}
+/* ナビの設定 */
+header {
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display:flex;
+    justify-content:center;
+    background:white;
+    z-index:9999;
+}
+.logo {
+    height:100px;
+    float:left;
+}
+nav {
+    display:block;
+    background-color:rgba(0,0,0,0.8);
+    margin:auto;
+}
+.header h1 {
+    padding-top:15px;
+}
+.ul_list {
+    display:flex;
+    justify-content:center;
+}
+.ul_list li {
+    list-style-type:none;
+    margin-right:20px;
+}
+.ul_list a {
+    color:white;
+}
+
+/* メインコンテンツとサイドバーの設定 */
+.main {
+    margin-top:20px;
+    display:flex;
+    flex-direction:row;
+    flex-grow:1;
+}
+/* メインコンテンツの設定 */
+.content {
+    margin-top:100px;
+    margin-left:180px;
+    width:810px;
+    background-color:white;
+}
+
+/* サイドバーの設定 */
+.sidebar {
+    margin-top:100px;
+    margin-left:20px;
+    width:380px;
+    background-color:white;
+}
+
+.title {
+    background-image:url(/images/code_img.jpg);
+    height:180px;
+    background-color:rgba(255,255,255,0.8);
+    background-blend-mode:lighten;
+}
+.title h1 {
+    text-align:center;
+    padding-top:20px;
+}
+.content p {
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.mokuzi {
+    margin-left:30px;
+}
+.content_title {
+    margin-top:100px;
+    margin-left:30px;
+}
+
+.img_align {
+    text-align:center;
+}
+
+.writer {
+    margin-top:10px;
+    text-align:center;
+}
+.writer img {
+    width:350px;
+}

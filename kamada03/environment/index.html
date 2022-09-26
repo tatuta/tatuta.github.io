@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scraping.py</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+    <script src="/environment/pagetop.fade.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="body">
+        <header class="header">
+            <img class="logo" src="../images/Scraping_py_ロゴ.png" alt="ロゴ">
+            <h1>スクレイピング情報サイト</h1>
+            <nav>
+                <ul class="ul_list">
+                    <li><a href="../main/index.html">HOME</a></li>
+                    <li><a href="../what_is_scraping/index.html">スクレイピングとは</a></li>
+                    <li><a href="../environment/index.html">環境構築</a></li>
+                    <li><a href="../base_scraping/index.html">スクレイピングの基本</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="main">
+            <div class="content">
+                <div class="title">
+                    <p>2022.06.30</p>
+                    <h1>環境構築</h1>
+                </div>
+                <p>&nbsp;&nbsp;ここでは、環境構築を行います。スクレイピングという言葉がわからない、Seleniumがわからないという方は、まず <a href="/what_is_scraping.html">こちら</a> をご覧ください。</p>
+                <br>
+                <div class="mokuzi">
+                <h2>目次</h2>
+                    <ul>
+                        <li>Pythonの導入</li>
+                        <li>Seleniumのインストール</li>
+                        <li>ChromeDriverのインストール</li>
+                    </ul>
+                </div>
+                <h2 class="content_title">Pythonの導入</h2>
+                <p>&nbsp;今回扱うSeleniumでは、最新のPythonを使用します。</p>
+                <p>&nbsp;Pythonは、公式サイトからダウンロードします。 URLは、<a href="https://www.python.org/downloads/">こちら</a></p>
+                <p>アクセスしたら、画像の赤枠で囲ってあるDownloadを選択します。</p>
+                <img src="/images/Python_download_guide1.png" alt="" id="img_Python_download_guide1">
+                <p>&nbsp;&nbsp;ダウンロードが完了したら、exeファイルを起動し、出てきたウィンドウ内にある「Add Python 3.10 to PATH」にチェックをつけて「Install Now」を選択します。
+                    これでPythonの導入は完了です。
+                </p>
+                <h2 class="content_title">Seleniumのインストール</h2>
+                <p>&nbsp;&nbsp;まず、pipの更新を行います。pipコマンドを実行する時は、以下のコマンドを使用し、更新してから行いましょう。</p>
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=11px&ph=63px&ln=false&fl=1&fm=Hack&fs=17.5px&lh=178%25&si=false&es=2x&wm=false&code=%2509python%2520-m%2520pip%2520install%2520--upgrade%2520pip"
+                style="width: 600px; height: 127px; border:0; overflow:hidden; margin-left:100px; margin-top:20px; margin-bottom:20px;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <p>&nbsp;&nbsp;では、Seleniumをインストールしていきます。<br>Seleniumのインストールは、以下のコマンドを実行することでできます。</p>
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=11px&ph=63px&ln=false&fl=1&fm=Hack&fs=17.5px&lh=178%25&si=false&es=2x&wm=false&code=pip%2520install%2520selenium"
+                style="width: 600px; height: 127px; border:0;  overflow:hidden; margin-left:100px; margin-top:20px; margin-bottom:20px;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <p>&nbsp;&nbsp;これでSeleniumのインストールは完了です。<br>&nbsp;&nbsp;次はChromeDriverのインストールです。</p>
+                <h2 class="content_title">Chromeのバージョン確認</h2>
+                <p>&nbsp;&nbsp;ChromeDriverをインストールする為に利用しているChromeのバージョンを確認します。</p>
+                <div class="img_align">
+                    <img src="../images/chrome_version_kakunin.png" alt="">
+                </div>
+                <p>&nbsp;&nbsp;右上の点3つのアイコンをクリック。ヘルプのGoogle Chromeについてを開きます。</p>
+                <div class="img_align">
+                    <img src="../images/chrome_version.png" alt="">
+                </div>
+                <h2 class="content_title">ChromeDriverのインストール</h2>
+                <p>&nbsp;&nbsp;公式サイトのダウンロードページにアクセスします。</p>
+                <p class="color_blue">&nbsp;&nbsp;https://chromedriver.chromium.org/downloads</p>
+                <p>上記ページにアクセスする</p>
+                <p>ダウンロードするバージョンは、Chromeのバージョンによって分かれています。</p>
+                <div class="img_align">
+                    <img src="../images/chrome_driver_version.png" alt="">
+                </div>
+                <p>注目するべき場所は、以下の場所です。</p>
+                <div class="img_align">
+                    <img src="../images/chrome_driver_version2.png" alt="">
+                </div>
+                <p>Chromeのバージョンは、「103.0.5060.114」でした。 <br> 同じバージョンの「ChromeDriver 103.0.5060.53」をダウンロードします。</p>
+                <p>「ChromeDriver 103.0.5060.53」をクリックします。</p>
+                <div class="img_align">
+                    <img src="../images/chrome_driver_version3.png" alt="">
+                </div>
+                <p>お使いの環境に合ったものをダウンロードしてください。</p>
+                <br><br>
+                <p>zipファイルがダウンロードされるので解凍後、「chromedriver.exe」をお好みのディレクトリに設置します。これで完了。</p>
+                <h2 class="content_title">Seleniumの設置</h2>
+                <p>ダウンロードしたzipファイルを解凍します。</p>
+                <div class="img_align">
+                    <img class="chrome_driver_img" src="../images/chrome_driver_img.png" alt="">
+                </div>
+                <p>解凍したフォルダの中には、実行ファイルがあるので適当な場所に置きましょう。できるだけ階層の低い場所に置いておくと、後々楽です。</p>
+                <h2 class="content_title">まとめ</h2>
+                <p>以上で環境構築は完了です。では、実際に動かしてみましょう。</p>
+                <div class="title">
+                    <p>2022.09.08</p>
+                    <h1><a href="../base_scraping/index.html">スクレイピングの基本</a></h1>
+                </div>
+            </div>
+            <div class="sidebar">
+                <div class="writer">
+                    <h3>このページを書いた人</h3>
+                    <img src="../images/job_programmer.png" alt="">
+                    <p>岩本 幹大</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- END #wrap -->
+</body>
+</html>

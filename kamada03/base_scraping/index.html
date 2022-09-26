@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scraping.py</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="body">
+        <header class="header">
+            <img class="logo" src="../images/Scraping_py_ロゴ.png" alt="ロゴ">
+            <h1>スクレイピング情報サイト</h1>
+            <nav>
+                <ul class="ul_list">
+                    <li><a href="../main/index.html">HOME</a></li>
+                    <li><a href="../what_is_scraping/index.html">スクレイピングとは</a></li>
+                    <li><a href="../environment/index.html">環境構築</a></li>
+                    <li><a href="../base_scraping/index.html">スクレイピングの基本</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="main">
+            <div class="content">
+                <div class="title">
+                    <p>2022.09.08</p>
+                    <h1>スクレイピングの基本</h1>
+                </div>
+                <p>それでは、早速始めてみましょう。</p>
+                <p>Pythonを導入すると、IDLEというエディタが付属しますので、こちらを使用しましょう。</p>
+                <div class="img_align">
+                    <img src="../images/IDLE_img.png" alt="">
+                </div>
+                <p>コードを入力する画面に移動するため、New Fileを選択しましょう。</p>
+                <div class="img_align">
+                    <img src="../images/IDLE_img2.png" alt="" style="width:250px;">
+                </div>
+                <br><br>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=python&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=7px&ph=17px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=from%2520selenium%2520import%2520webdriver%250Afrom%2520time%2520import%2520sleep"
+                    style="width: 850px; height: 130px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <p>上記のコードを入れたら、Chrome Driverの場所を指定してあげます。</p>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=python&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=7px&ph=17px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=driver%2520%253D%2520webdriver.Chrome%28r%27ChromeDriver%25E3%2581%25AE%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25AC%25E3%2582%25AF%25E3%2583%2588%25E3%2583%25AA%2520%252B%2520chromedriver%27%29"
+                    style="width: 850px; height: 130px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <p>例えば、私の場合Desktopに置いているため、このようになります。</p>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=python&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=7px&ph=17px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=driver%2520%253D%2520webdriver.Chrome%28r%27C%253A%255CUsers%255Cnkjks0303%255CDesktop%255Cchromedriver%27%29"
+                    style="width: 850px; height: 130px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <p>先ほどdriverを読み込みましたので、driverのメソッドget()を使用して、サイトを読み込んでみましょう。get()は、次のように書きます。</p>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=python&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=20px&ph=17px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=driver.get%28%2522URL%2522%29"
+                    style="width: 850px; height: 130px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <p>今回は、Googleのサイトをスクレイピングの例として紹介します。以下のコードを入力してください。</p>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=python&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=7px&ph=17px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=driver.get%28%2522https%253A%252F%252Fgoogle.com%2522%29"
+                    style="width: 850px; height: 130px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <p>では、さっそく実行してみましょう。 F5キーを押すと実行できます。</p>
+                <div class="img_align">
+                    <img src="../images/IDLE_google.png" alt="" style="width:700px;">
+                </div>
+                <p>実行できましたでしょうか。<br>実行しますと、検索バーの下に"自動テストソフトウェアによって制御されています。"と表示されていると思います。これは、Seleniumで実行しているから表示されています。</p>
+                <h2 class="content_title">まとめ</h2>
+                <p>お疲れさまでした。この技術を使うことで、楽に情報収集をすることができます。ぜひ、学んで使ってみてください。</p>
+            </div>
+            <div class="sidebar">
+                <div class="writer">
+                    <h3>このページを書いた人</h3>
+                    <img src="../images/job_programmer.png" alt="">
+                    <p>岩本 幹大</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
