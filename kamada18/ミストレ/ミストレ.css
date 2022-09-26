@@ -1,0 +1,36 @@
+@charset "utf-8";
+.a{ 
+	display: flex;
+	 text-align:center;
+     margin:0 auto;
+}
+body{
+	background-color:#F99FF9;
+}
+.mist{
+	text-align: center;
+}
+.nenu1{
+	padding: 0px 0px 0px 10px;
+	
+}
+.menu2{
+	padding: 0px 0px 0px 10px;
+}
+.menu3{
+	padding: 0px 2px 0px 10px;
+}
+.menu4{
+	padding: 0px 0px 0px 10px;
+}
+ul {
+  display: flex;
+}
+.class1{
+	text-align: center;
+	
+}
+.img{display: flex;
+	 text-align:center;
+     margin:0 auto;
+}
