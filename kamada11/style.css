@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#dcdcdc;
+	font-size:40px;
+	margin:left;
+	margin:30px;
+}
+h1{
+	font-size:20px;
+	color:#1A6251;
+	width:100px;
+}
+li{
+	font-size:20px;
+	float:left;
+	width:100px;
+	margin:20px;
+	list-style:none;
+	color:blue;
+	
+}
+p{
+	font-size:20px;
+}
+#main{
+	background:#40e0d0;
+	padding:90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

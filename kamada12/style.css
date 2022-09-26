@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#64B4FF;
+	font-size:30px;
+	margin:left;	
+}
+h1{
+	font-size:40px;
+	color:#002CFD;
+}
+li{
+	font-size:20px;
+	float:left;
+	width:100px;
+	margin:20px;
+	list-style:none;
+	color:aqua;
+	
+	
+}
+h2{
+	font-size:20px;
+}
+
+#main{
+	background:#;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

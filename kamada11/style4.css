@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#dcdcdc;
+}
+h1{
+	margin:50px;
+	padding:
+}
+.btn{
+	border: 3px solid #eb6101;
+	background: white;
+	padding: 20px;
+	text-align: center;
+	margin:60px;
+	font-size: 20px;
+}
+.btm{
+	border: 3px solid #eb6101;
+	background: white;
+	padding: 40px;
+	text-align:left;
+	margin:60px;
+	font-size: 20px;
+}
+.btb{
+	border: 3px solid #eb6101;
+	background:white;
+	padding: 10px;
+	text-align: right;
+	margin:30px;
+	font-size: 20px;
+}
+.btp{
+	border: 3px solid #eb6101;
+	background:white;
+	padding: 50px;
+	text-align: center;
+	margin:60px;
+	font-size: 20px;
+}
+
+
+#main{
+	background:#40e0d0;
+}
