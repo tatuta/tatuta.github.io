@@ -187,12 +187,11 @@
   </footer>
   <div id="foo"><small>Copyrights&copy;2021 kamada All Rights reserved.</small></div>
 </div>
- <script>
-   if (pw == "abcde"){
-     location.href = "index.html";
-   }else{
-     alert("パスワードが違います！");
-}
-  </script>
+<script type="text/javascript">
+   function gate() {
+      var UserInput = prompt("パスワードを入力して下さい:","");
+      location.href = UserInput + ".html";
+   }
+</script>
 </body>
 </html>
