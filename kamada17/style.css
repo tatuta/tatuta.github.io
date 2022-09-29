@@ -1,0 +1,17 @@
+body{
+	padding: 0 20px 0 20px;
+}
+.float{
+	float: left;
+}
+.pa{
+	padding: 20px;
+}
+.ma{
+	float: left;
+	padding: 0px 20px 0px 20px;
+}
+.image{
+	clear: both;
+	text-align: center;
+}
