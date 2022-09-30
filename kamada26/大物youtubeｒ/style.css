@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	size:400px;
+}
+th{
+	text-align: center;
+}
+
+main{
+	text-align: center;
+	
+}
+table{
+	margin:auto;
+}
+tdul{
+	width:20px;
+	
+}
