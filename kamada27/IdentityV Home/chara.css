@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+h1{
+}
+header{
+	background-color: #2CFD6B;
+	height:auto;
+}
+td li{
+	display: flex;
+	width:120px;
+}
+.suviver1 ul{
+	list-style: none;	
+	background:linear-gradient(to right, #EA0032 0%, #E9546B 50%, #E9546B 50%, #Ea0032 100%)
+}
+.hunter1 ul{
+	list-style: none;
+	background:linear-gradient(to right, blue 0%, #6C9BD2 50%, #6C9BD2 50%, blue 100%)
+}
+.suviver2{
+	float:left;
+}
+.suviver3{
+	float: right;
+}
+.suviver4{
+	text-align: center;
+}
+.hunter2{
+	float:left;
+}
+.hunter3{
+	float: right;
+}
+.hunter4{
+	text-align: center;
+}
+.hunter2 img{
+	height:250px
+}
+.hunter3 img{
+	height:250px;
+}
+.hunter4 img{
+	height: 250px;
+}
+/*p{
+	width:600px ;
+	height:400px;
+	clear: both;
+}
+.homemain{
+	float: left;
+		width:100%;
+}
+
+.takato{
+	display:flex;
+	justify-content:space-around
+}
+
+.takakuwa{
+	width:auto;
+	text-align: center;
+}
+.a{
+	width: 200px;
+	background: red;
+}
+.chi{
+	width: px
+}
