@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+#wrap {
+width:960px;
+margin:0 auto;
+}
+
+header {
+border:dashed 1px #999;
+background-color: #56b1bf;
+text-align: center;
+}
+ul {
+  display: flex;
+}
+li{
+	list-style: none;
+}
+.a{ 
+display: flex;
+text-align:center;
+margin:0 auto;
+}
+.nenu1{
+padding: 0px 0px 0px 10px;
+
+}
+.menu2{
+padding: 0px 0px 0px 10px;
+}
+.menu3{
+padding: 0px 2px 0px 10px;
+}
+.menu4{
+padding: 0px 0px 0px 10px;
+}
+
+#contents {
+width:958px;
+height:498px;
+border:dashed 1px #999;
+margin:10px 0px 10px 0px;
+}
+
+footer {
+border:dashed 1px #999;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+display: block;
+}

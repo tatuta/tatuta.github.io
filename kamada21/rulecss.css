@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+#wrap {
+width:960px;
+margin:0 auto;
+}
+
+header {
+border:dashed 1px #999;
+color:#fccdb7;
+text-align: center;
+}
+
+#contents {
+width:958px;
+height:498px;
+border:dashed 1px #999;
+margin:10px 0px 10px 0px;
+}
+
+footer {
+border:dashed 1px #999;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+display: block;
+}
+
+
