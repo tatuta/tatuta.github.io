@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>無題ドキュメント</title>
+<link rel="stylesheet" href="誤字脱字.css">
+<script src="http://code.jquery.com/jquery-3.6.1.js"></script>
+</head>
+
+<body>
+	<h1>パイオニア</h1>
+	<p>トリトドン</p>
+	<p>看板娘</p>
+	<p>オクスフォード大学</p>
+	
+	<input type="button" value="ボタン"　id="btn">
+	
+	<script>
+	    $('p').hide();
+		$('h1').css('color','black');
+		
+		$('#btn').click(function(){
+			
+			$('p').fadeIn(2000);
+		});
+		
+	
+	</script>
+</body>
+</html>
